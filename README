@@ -1,0 +1,7 @@
+Çevirilmiş Asterisk dil dosyasındaki metinleri Google TTS servisini kullanarak sese çevirir. Türkçe Asterisk ses dosyaları üretir. Original İngilizce metinlerden Türkçe'ye çeviriler mevcuttur.
+
+Creats sound files from Asterisk transcription files using Google. English and Turkish transcription files included.
+
+Ubuntu için kurulu olmayı gerektiren paketler:
+Dependent packages for Ubuntu:
+sudo apt-get install perl wget mp3wrap sox libsox-fmt-all

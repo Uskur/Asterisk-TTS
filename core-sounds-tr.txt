@@ -1,0 +1,456 @@
+;Burak USGURLU <burak@uskur.com.tr>
+;TTS'de kullanılmak üzere çevirilmiştir.
+;
+
+;agent-alreadyon: That agent is already logged on.  Please enter your agent number followed by the pound key.
+;agent-incorrect: Login incorrect.  Please enter your agent number followed by the pound key.
+;agent-loggedoff: Agent Logged off.
+;agent-loginok: Agent logged in.
+agent-newlocation: Yeni dahili numaranızı girdikten sonra kareyi tuşlayınız.
+agent-pass: Lütfen şifrenizi girdikten sonra kareyi tuşlayınız.
+;agent-user: Agent login.  Please enter your agent number followed by the pound key.
+;ascending-2tone: [ascending tones]
+auth-incorrect: Şifre hatalı. Lütfen şifrenizi girdikten sonra kareyi tuşlayınız.
+auth-thankyou: Teşekkürler.
+;beeperr: [this is an error beep tone]
+;beep: [this is a simple beep tone]
+conf-adminmenu-162: Kendi sesinizi kapatıp açmak için bire, konferansı kitlemek ve açmak için ikiye, son bağlananı atmak için üçe, konferansın sesini azaltıp arttırmak için dört veya altıya, konferansı uzatmak için beşe, kendi sesinizi azaltıp arttırmak için yedi veya dokuza, çıkmak için sekize basınız.
+conf-adminmenu: Kendi sesinizi kapatıp açmak için bire, konferansı kitlemek ve açmak için ikiye, son bağlananı atmak için üçe, konferansın sesini azaltıp arttırmak için dört veya altıya, kendi sesinizi azaltıp arttırmak için yedi veya dokuza, çıkmak için sekize basınız.
+conf-enteringno: Girdiğiniz konferans numarası
+conf-errormenu: Geçersiz Tercih
+conf-extended: Konferans uzatılmıştır.
+conf-getchannel: Lütfen kanal numarasının ardından kare tuşuna basınız.
+conf-getconfno: Konferans numarasının ardından kare tuşuna basınız.
+conf-getpin: Lütfen konferans şifresini giriniz.
+conf-hasjoin: konferansa katıldı.
+conf-hasleft: konferansdan ayrıldı.
+conf-invalidpin: Girdiğiniz şifre bu konferans için geçerli değil.
+conf-invalid: Geçerli bir konferans numarası değil. Lütfen tekrar deneyiniz.
+conf-kicked: Bu konferansdan atıldınız
+conf-leaderhasleft: Konferans sahibi ayrıldı.
+conf-lockednow: Konferans kilitlendi
+conf-locked: Bu konferans kilitli!
+conf-muted: Sessize alındınız
+conf-noempty: Şu anda boş konferans bulunmamakta.
+conf-nonextended: Konferans uzatılamadı.
+conf-now-muted: Konfrans sessize alındı.
+conf-now-recording: Konferans kayıt edilmeye başlandı.
+conf-now-unmuted: Konferansın sesi açıldı.
+conf-onlyone: Şu anda konferansta sadece bir kişi bulunuyor.
+conf-onlyperson: Şu anda konferanstaki tek kişi sizsiniz.
+conf-otherinparty: konferanstaki diğer kişiler
+conf-placeintoconf: Şimdi konferansa dahil edileceksiniz.
+conf-roll-callcomplete: Görev araması tamamlandı.
+conf-thereare: Şu anda
+conf-unlockednow: Konferansın kilidi şimdi açıldı
+conf-unmuted: Sesiniz açıldı
+conf-usermenu-162: Kendi sesinizi kapatıp açmak için bire, konferansın sesini azaltıp arttırmak için dört veya altıya, konferansı uzatmak için beşe, kendi sesinizi azaltıp arttırmak için yedi veya dokuza, çıkmak için sekize basınız.
+conf-usermenu: Kendi sesinizi kapatıp açmak için bire, konferansın sesini azaltıp arttırmak için dört veya altıya, kendi sesinizi azaltıp arttırmak için yedi veya dokuza, çıkmak için sekize basınız.
+conf-userswilljoin: kullanıcılar konferansa katılacaklar.
+conf-userwilljoin: kullanıcı konferansa katılacak.
+conf-waitforleader: Konferans sahibi katıldığında başlayacak.
+; Core Asterisk Sounds in English
+;demo-abouttotry: I am about to attempt an Inter-Asterisk Exchange connection to a demonstration server located at Digium.  In order for this to work you must already be connected to the Internet.  Please wait a moment while I attempt to make the connection.
+;demo-congrats: Congratulations.  You have successfully installed and executed the Asterisk open source PBX.  You have also installed a set of sample sounds and configuration files that should help you to get started.  Like a normal PBX you will navigate this demonstration by dialing digits.  If you are using a console channel driver instead of a real phone you can use the dial, answer, and hang up commands to simulate the actions of a standard telephone.
+;demo-echodone: The echo test has been completed.
+;demo-echotest: You are about to enter an echo test.  In this mode everything you say will be repeated back to you just as soon as it is received.  The purpose of this test is to give you an audible sense of the latency between you and the machine that is running the echo test application.  You may end the test by hanging up or by pressing the pound key.
+;demo-enterkeywords: Please enter one or more keywords separated by * and then press the pound key.
+;demo-instruct: If you would like to learn more technical information about Asterisk dial 2 now.  If you'd like to test out the voice over IP capabilities of Asterisk you can dial 500 to attempt an Inter-Asterisk Exchange or IAX connection to a demonstration server at Digium.  In order for this test to work you will need to be connected to the Internet and have at least a 28.8 kilobit modem.  To execute an echo test dial 600.  This test is most useful when you have connected to this Asterisk server from a remote location.  The sample configuration also has a single user with extension 1234 and password 4242.  That user is configured to ring the console when their extension is dialed.  If you dial 1234 you can try to ring the console.  If the console is busy or unavailable you will be given the option to leave voicemail.  To check voice mail for the user dial extension 8500 to enter the voicemail system.  Finally,  you can press the pound key to disconnect from the PBX.
+;demo-moreinfo: Asterisk is an Open Source full-featured PBX and IVR platform that runs on the linux operating system.  For more information, visit www.asterisk.org.
+;demo-nogo: I am afraid I was unable to create a connection to the Digium demonstration Asterisk server.  You may find some helpful debugging information on the Asterisk console.
+;demo-nomatch: I'm sorry there are no matches for those keywords
+;demo-thanks: Goodbye.  Thank you for trying out the Asterisk Open Source PBX.
+;descending-2tone: [descending tones]
+dictate/both_help: bekleme yapmak ve devam etmek için yıldıza, yeni bir kayıt için kareye basınız
+dictate/enter_filename: Nümerik bir kayıt dosya ismi girin ve kareye, çıkmak için sadece kareye basınız
+dictate/forhelp: yardım için sıfıra basınız
+dictate/paused: beklemede
+dictate/pause: bekle
+dictate/playback_mode: dinleme modu
+dictate/playback: dinle
+dictate/play_help: kayıt moduna geçmek için bire, hızlı dinleme için ikiye, geri gitmek için yediye, ileri gitmek için sekize basınız
+dictate/record_help: dinleme moduna geçmek için bire, baştan başlamak için sekize basınız
+dictate/record_mode: kayıt modu
+dictate/record: kayıt
+dictate/truncating_audio: ses kesiliyor
+digits/0: sıfır
+digits/10: on
+digits/11: onbir
+digits/12: oniki
+digits/13: onüç
+digits/14: ondört
+digits/15: onbeş
+digits/16: onaltı
+digits/17: onyedi
+digits/18: onsekiz
+digits/19: ondokuz
+digits/1: bir
+digits/20: yirmi
+digits/2: iki
+digits/30: otuz
+digits/3: üç
+digits/40: kırk
+digits/4: dört
+digits/50: elli
+digits/5: beş
+digits/60: altmış
+digits/6: altı
+digits/70: yetmiş
+digits/7: yedi
+digits/80: seksen
+digits/8: 8
+digits/90: doksan
+digits/9: dokuz
+digits/a-m: öğleden önce
+digits/at: at
+digits/day-0: Pazar
+digits/day-1: Pazartesi
+digits/day-2: Salı
+digits/day-3: Çarşamba
+digits/day-4: Perşembe
+digits/day-5: Cuma
+digits/day-6: Cumartesi
+digits/dollars: dolar
+digits/h-10: onuncu
+digits/h-11: onbirinci
+digits/h-12: onikinci
+digits/h-13: onüçüncü
+digits/h-14: ondördüncü
+digits/h-15: onbeşinci
+digits/h-16: onaltıncı
+digits/h-17: onyedinci
+digits/h-18: onsekizinci
+digits/h-19: ondokuzuncu
+digits/h-1: birinci
+digits/h-20: yirminci
+digits/h-2: ikinci
+digits/h-30: otuzuncu
+digits/h-3: üçüncü
+digits/h-40: kırkıncı
+digits/h-4: dördüncü
+digits/h-50: ellinci
+digits/h-5: beşinci
+digits/h-60: altmışıncı
+digits/h-6: altıncı
+digits/h-70: yetmişinci
+digits/h-7: yedinci
+digits/h-80: sekseninci
+digits/h-8: sekizinci
+digits/h-90: doksanıncı
+digits/h-9: dokuzuncu
+digits/h-billion: milyarıncı
+digits/h-hundred: yüzüncü
+digits/h-million: milyonuncu
+digits/h-thousand: bininci
+digits/hundred: yüz
+digits/million: milyon
+digits/minus: eksi
+digits/mon-0: Ocak
+digits/mon-10: Kasım
+digits/mon-11: Aralık
+digits/mon-1: Şubat
+digits/mon-2: Mart
+digits/mon-3: Nisan
+digits/mon-4: Mayıs
+digits/mon-5: Haziran
+digits/mon-6: Temmuz
+digits/mon-7: Auğustos
+digits/mon-8: Eylül
+digits/mon-9: Ekim
+;digits/oclock: o'clock
+;digits/oh: oh
+digits/p-m: öğleden sonra
+digits/pound: kare
+digits/star: yıldız
+digits/thousand: bin
+digits/today: bugün
+digits/tomorrow: yarın
+digits/yesterday: dün
+;dir-firstlast: ... letters of your party's first or last name.
+dir-instr: Eğer aradığınız kişi ise bire, değilse yıldıza basınız.
+dir-intro-fn: Rehbere hoşgeldiniz. Lütfen aradığınız kişinin adının ilk üç harfini tuşlayınız. Q için yediyi Z için dokuzu tuşlayın.
+dir-intro: Rehbere hoşgeldiniz. Lütfen aradığınız kişinin soyadının ilk üç harfini tuşlayınız. Q için yediyi Z için dokuzu tuşlayın.
+;dir-last: ... letters of your party's last name.
+;dir-multi1: Press ...
+;dir-multi2: ... for ...
+;dir-multi3: ... extension ...
+dir-multi9: Daha fazla seçenek için dokuza basınız.
+dir-nomatch: Aramanıza uyan rehber kaydı bulunamamıştır.
+dir-nomore: Rehberde eşleşen başka kayıt bulunmamaktadır.
+dir-pls-enter: Lütfen ilk
+dir-usingkeypad: ... tuş takımını kullanarak giriniz.  Q için yediye ve Z için dokuza basınız.
+dir-welcome: Rehbere hoşgeldiniz
+dollars: dolar
+followme/call-from.wav: gelen çağrının sahibi
+followme/no-recording.wav: gelen çağrınız var
+followme/options.wav: kabul etmek için bire, reddetmek için ikiye basınız
+followme/pls-hold-while-try.wav: aradığınız kişiyi bulmaya çalışırken lütfen bekleyin
+followme/sorry.wav: Üzgünüm, aradığınız kişiye ulaşamadım
+followme/status.wav: aradığınız kişi masasında değil, sizin için ona ulaşmaya çalışacağım
+hello-world: Merhaba dünya.
+hours: saat
+invalid: Hatalı bir giriş yaptınız. Lütfen tekrar deneyiniz.
+letters/a: aa
+letters/ascii123: kare parantez açma
+letters/ascii124: boru
+letters/ascii125: kare parantez kapama
+letters/ascii126: tilda
+letters/ascii34: çift tırnak
+letters/ascii36: dolar işareti
+letters/ascii37: yüzde
+letters/ascii38: ampersand
+letters/ascii39: tik
+letters/ascii40: parantez açma
+letters/ascii41: parantez kapama
+letters/ascii42: yıldız
+letters/ascii44: virgül
+letters/ascii58: iki nokta üst üste
+letters/ascii59: noktalı virgül
+letters/ascii60: daha az
+letters/ascii62: daha çok
+letters/ascii63: soru işareti
+letters/ascii91: kıvrık parantez açma
+letters/ascii92: ters eğik çizgi
+letters/ascii93: kıvrık parantez kapama
+letters/ascii94: düzeltme işareti
+letters/ascii95: altçizgi
+letters/ascii96: ayraç
+letters/asterisk: yıldız
+letters/at: at
+letters/b: be
+letters/c: ce
+letters/dash: tire
+letters/d: de
+letters/dollar: dollar
+letters/dot: nokta
+letters/e: ee
+letters/equals: eşit
+letters/exclaimation-point: ünlem
+letters/f: fe
+letters/g: ge
+letters/h: he
+letters/i: ii
+letters/j: je
+letters/k: ka
+letters/l: le
+letters/m: me
+letters/n: ne
+letters/o: oo
+letters/plus: artı
+letters/p: pe
+letters/q: qu
+letters/r: re
+letters/slash: eğik çizgi
+letters/space: boşluk
+letters/s: se
+letters/t: te
+letters/u: uu
+letters/v: ve
+letters/w: çitf ve
+letters/x: x
+letters/y: ye
+letters/zed: zed
+letters/z: ze
+minutes: dakika
+pbx-invalid: Geçersiz bir dahili numara girdiniz. Lütfen tekrar deneyiniz.
+pbx-invalidpark: Üzgünüm, seçtiğiniz dahilide bekleyen arama bulunmamaktadır. Lütfen tekrar deneyiniz.
+pbx-parkingfailed: Bekletme denemesi başarısız oldu.
+pbx-transfer: Transfer.
+phonetic/9_p: dokuz
+phonetic/a_p: ankara
+phonetic/b_p: bursa
+phonetic/c_p: ceydan
+phonetic/d_p: denizli
+phonetic/e_p: eskişehir
+phonetic/f_p: fatsa
+phonetic/g_p: giresun
+phonetic/h_p: hatay
+phonetic/i_p: istanbul
+phonetic/j_p: jale
+phonetic/k_p: kayseri
+phonetic/l_p: lüleburgaz
+phonetic/m_p: muğla
+phonetic/niner: dokuz
+phonetic/n_p: niğde
+phonetic/o_p: ordu
+phonetic/p_p: patnos
+phonetic/q_p: quebec
+phonetic/r_p: rize
+phonetic/s_p: sivas
+phonetic/t_p: tokat
+phonetic/u_p: urfa
+phonetic/v_p: van
+phonetic/w_p: whiskey
+phonetic/x_p: xray
+phonetic/y_p: yalova
+phonetic/z_p: zile
+privacy-incorrect: Geçersiz bir numara tuşladınız.
+privacy-prompt: Lütfen telefon numaranızı alan kodu dahil olacak biçimde tuşlayınız.
+privacy-thankyou: Teşekkürler.
+privacy-unident: Ulaşmaya çalıştığınız kişi gizli numaralardan arama kabul etmemektedir.
+priv-callee-options: Bu arayanın size şimdi ve gelecekte ulaşmasını istiyorsanız bire, arayanı şimdi ve gelecekte posta kutusuna yönlendirmek istiyorsanız ikiye, arayanı şimdi ve gelecekte eziyet menülerine göndermek için üçe, arayanız şimdi ve gelecekte kibarca tekrar arama menüsüne göndermek için dörde, arayanın gelecekte size ulaşabilmesi ancak bu seferlik posta kutusuna yönlendirmek istiyorsanız beşe basınız.
+priv-callpending: Bir çağrınız var, kendisini şu şekilde tanıtmıştır
+priv-introsaved: Teşekkürler. Aradığınız kişiye sizi bağlarken lütfen bekleyiniz.
+priv-recordintro: Bip sesinde lütfen isminizi söyleyiniz.
+queue-callswaiting: Bir temsilci ile görüşmeyi bekleyen
+queue-holdtime: Tahmini bekleme süreniz
+queue-less-than: daha az
+queue-minute: dakika
+queue-minutes: dakika
+queue-periodic-announce: Tüm temsilcilerimiz şu anda meşguldür. Lütfen hatta kalınız, çağrınız ilk müsait temsilci tarafından cevaplanacaktır.
+queue-quantity1: Şu anda
+queue-quantity2: kişi bir temsilci ile görüşmek üzere beklemektedir
+queue-reporthold: Bekleme süresi
+queue-seconds: saniye
+queue-thankyou: Beklediğiniz için teşekkür ederiz
+queue-thereare: Şu anda sıra numaranız
+queue-youarenext: Çağrınız ilk sıradadır ve ilk müsait temsilci tarafından cevaplanacaktır.
+screen-callee-options: Seçenekleriniz şunlardır: Çağrıyı hemen yanıtlamak için bire, çağrıyı posta kutusuna yönlendirmek için ikiye, çağrıyı eziyet menüsüne yönlendirmek için üçe, kibarca aramayın menüsüne yönlendirmek için dörde basınız.
+seconds: saniye
+;silence/10: (10 seconds of silence)
+;silence/1: (1 second of silence)
+;silence/2: (2 seconds of silence)
+;silence/3: (3 seconds of silence)
+;silence/4: (4 seconds of silence)
+;silence/5: (5 seconds of silence)
+;silence/6: (6 seconds of silence)
+;silence/7: (7 seconds of silence)
+;silence/8: (8 seconds of silence)
+;silence/9: (9 seconds of silence)
+;spy-agent: Agent
+;spy-console: Console
+;spy-dahdi: DAHDI
+;spy-h323: H.323
+;spy-iax2: IAX (note: does not say "2")
+;spy-iax: IAX
+;spy-jingle: Jingle
+;spy-local: Local
+;spy-mgcp: MGCP
+;spy-misdn: M I S D N
+;spy-mobile: Bluetooth Mobile
+;spy-nbs: N B S
+;spy-sip: SIP
+;spy-skinny: Skinny
+;spy-unistim: Unistim
+;spy-usbradio: USB Radio
+;spy-zap: Zap
+ss-noservice: Aradığınız numara servis dışıdır. Numarayı kontrol ettikten sonra tekrar deneyiniz.
+transfer: Dahili numaraya erişmeye çalışırken lütfen bekleyiniz.
+;tt-allbusy: All representatives of the household are currently assisting other telemarketers.  Please hold and your call will be answered in the order it was received.
+;tt-monkeysintro: They have been carried away by monkeys
+;tt-monkeys: [sound of monkeys screaming]
+;tt-somethingwrong: Something is terribly wrong
+;tt-weasels: Weasels have eaten our phone system
+vm-advopts: gelişmiş seçenekler için üçe basınız
+vm-and: ve
+vm-calldiffnum: farklı bir numara girmek için ikiye basınız
+vm-changeto: Hangi dizine geçilsin?
+vm-Cust1: dizin 5
+vm-Cust2: dizin 6
+vm-Cust3: dizin 7
+vm-Cust4: dizin 8
+vm-Cust5: dizin 9
+vm-deleted: Mesaj silindi.
+vm-delete: Bu mesajı silmek için yediye basınız.
+vm-dialout: çağrınızı bağlarken lütfen bekleyiniz
+vm-duration: Bu mesajın süresi
+vm-enter-num-to-call: aramak istediğiniz numarayı giriniz
+vm-extension: dahili
+vm-Family: aile
+vm-first: ilk
+vm-for: için
+vm-forward-multiple: bu mesajı göndermek için bire, başka bir alıcı daha eklemek için ikiye basınız.
+vm-forwardoptions: bir mesaj eklemek için bire, ekleme yapmadan göndermek için ikiye basınız
+vm-forward: Dahili numara girmek için bire, rehberi kullanmak için ikiye basınız
+vm-Friends: arkadaşlar
+vm-from-extension: mesaj bırakan dahili numara
+vm-from: gönderen
+vm-from-phonenumber: mesaj bırakan numara
+vm-goodbye: Güle güle
+vm-helpexit: Yardım için yıldıza, çıkmak için kareye basınız.
+vm-INBOX: yeni
+vm-incorrect: Giriş hatalı.
+vm-incorrect-mailbox: Giriş hatalı.  Posta kutusu numaranız?
+vm-instructions: Mesajlarınızı dinlemek için bire basınız. Posta kutusundan kareyi tuşlayarak istediğiniz zaman ayrılabilirsiniz.
+vm-intro: Bip sesinden sonra mesajınızı bırakınız.  Tamamlayınca telefonu kapatabilir veya kare tuşuna basabilirsiniz.
+vm-invalidpassword: Girdiğiniz şifre geçerli değil. Lütfen tekrar deneyiniz.
+vm-invalid-password: Şifre bu posta kutusu için tanımlanan kurallara uymuyor. Lütfen tekrar deneyiniz.
+vm-isonphone: telefonda
+vm-isunavail: yerinde değil
+vm-last: son
+vm-leavemsg:  Bir mesaj bırakmak için beşe basınız.
+vm-login: Posta Kutusuna hoşgeldiniz. Posta kutusu numaranızı giriniz.
+vm-mailboxfull: üzgünüm, kullanıcının posta kutusu daha fazla mesaj kabul edememektedir
+vm-marked-nonurgent: Acil işareti kaldırıldı.
+vm-marked-urgent: Mesaj acil olarak işaretlendi.
+vm-message: mesaj
+vm-messages: mesaj
+vm-minutes: dakika
+vm-mismatch: Girdiğiniz şifre ve kontrol şifresi uyuşmadı. Lütfen tekrar deneyiniz.
+vm-msginstruct: Bir sonraki mesajı dinlemek için altıya, bu mesajı tekrarlamak için beşe, bir önceki mesajı dinlemek için dörde, mesajı silmek veya geri almak için sıfıra, posta kutusundan çıkmak için kareye basınız.
+vm-msgsaved: Mesajınız kaydedildi.
+vm-newpassword: Lütfen parolanızı giriniz ve ardından kare tuşuna basınız.
+vm-newuser: Posta kutusuna hoşgeldiniz. Öncelikle kısa bir kurulum aşamasında size yardımcı olacağım.
+vm-next: Bir sonraki mesajı dinlemek için altıya basınız.
+vm-nobodyavail: Çağrınızı cevaplayacak kimse bulunmamaktadır.
+vm-nobox: alıcının bir posta kutusu olmadığı için bu mesajı cevaplayamazsınız
+vm-nomore: Başka mesaj yok.
+vm-no: hayır
+vm-nonumber: Bu mesajın kim tarafından gönderildiğini bilmiyorum.
+vm-num-i-have: bendeki numara
+vm-Old: eski
+vm-onefor-full: Dinlemek için bire basınız...
+vm-onefor: Bire basınız
+vm-options: Ulaşılamama durumu mesajı kaydetmek için bire, meşgul durumu mesajını kaydetmek için ikiye, isminizi kaydetmek için üçe, geçici karşılamanızı kaydetmek için dörde, şifrenizi değiştirmek için beşe, ana menüye dönmek için yıldıza basınız.
+vm-opts-full: Diger dizinlerdeki mesajlara ulaşmak için ikiye,  başka bir posta kutusuna ulaşmak için üçe, karşılama ve şifre işlemleri için sıfıra basınız.
+vm-opts: Dizin değiştirmek için ikiye, gelişmiş seçenekler için üçe, posta kutusu tercihleri için sıfıra basınız.
+vm-passchanged: Şifreniz değiştirilmiştir.
+vm-password: şifre
+vm-pls-try-again: lütfen tekrar deneyiniz
+vm-press: basınız
+vm-prev: Önceki mesajı dinlemek için dörde basınız
+vm-reachoper: operatöre ulaşmak için sıfıra basınız
+vm-rec-busy: Bip sesinden sonra meşgul durumu mesajınızı söyleyin ve kareye basınız.
+vm-received: alındı
+vm-rec-name: Bip sesinden sonra isminizi söyleyin ve kareye basınız.
+vm-record-prepend: Bip sesinden sonra iletilecek mesaj için açıklamanızı söyleyin. Tamamlayınca kareye basınız.
+vm-rec-temp: Bip sesinden sonra geçici mesajınızı söyleyin ve kareye basınız.
+vm-rec-unv: Bip sesinden sonra ulaşılamama durumu mesajınızı söyleyin ve kareye basınız.
+vm-reenterpassword: Şifrenizi tekrar girip kareye basınız.
+vm-repeat: Mevcut mesajı tekrarlamak için beşe basınız.
+vm-review-nonurgent: Bu mesajdaki acil işaretini kaldırmak için dörde basınız.
+vm-review: bu kaydı kabul etmek için bire, tekrar dinlemek için ikiye, tekrar kaydetmek için üçe basınız
+vm-review-urgent: Bu mesajı acil olarak işaretlemek için dörde basınız.
+vm-saved: kaydedildi
+vm-savedto: kaydedildi
+vm-savefolder: Mesajı hangi dizine kaydetmeliyim?
+vm-savemessage: veya mesajı kaydetmek için dokuza basınız
+vm-saveoper: bu kaydı kabul ediyorsanız bire basınız, etmiyorsanız devam etmek için lütfen bekleyiniz
+vm-sorry: Üzgünüm, cevabınızı anlayamadım.
+vm-star-cancel: iptal etmek için yıldıza basınız
+vm-starmain: ana menüye dönmek için yıldıza basınız
+vm-tempgreetactive: Geçici karşılamanız şu anda aktif
+vm-tempgreeting2: geçici karşılama mesajınızı kaydetmek için bire, silmek için ikiye basınız
+vm-tempgreeting: geçici karşılama mesajınızı kaydetmek için bire basınız
+vm-tempremoved: Geçici karşılama mesajınız silinmiştir
+vm-then-pound: ardından kareye basınız
+vm-theperson: 
+vm-tmpexists: Standart karşılama mesajınızın yerine oynatılan geçici bir karşılama mesajı bulunmaktadır.
+vm-tocallback: bu mesajı gönderen kişiyi aramak için ikiye basınız
+vm-tocallnum: bu numarayı aramak için bire basınız
+vm-tocancelmsg: bu mesajı iptal etmek için yıldıza basınız
+vm-tocancel: veya iptal etmek için kareye basınız.
+vm-toenternumber: numara girmek için bire basınız
+vm-toforward: Mesajı başka bir kullanıcıya iletmek için sekize basınız
+vm-tohearenv: mesajın zarfını dinlemek için üçe basınız
+vm-tomakecall: dışarıya çağrı yapmak için dörde basınız
+vm-tooshort: mesajınız çok kısa 
+vm-toreply: cevap göndermek için bire basınız
+vm-torerecord: mesajınızı tekrar kaydetmek için üçe basınız
+vm-undeleted: Mesaj geri alındı.
+vm-undelete: Mesajı geri almak için yediye basınız
+vm-unknown-caller: bilinmeyen numaradan
+vm-Urgent: acil
+vm-whichbox: Mesaj bırakmak için posta kutusu numarasını girin.
+vm-Work: iş
+vm-youhave: Posta kutunuzdaki mesaj adedi
